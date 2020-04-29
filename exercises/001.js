@@ -24,4 +24,14 @@ function transformFirstAndLast(array) {
 
 function transformFirstAndLast(array) {
   //your code here
+  let obj = {
+
+  }
+
+  let value = array[array.length - 1]
+
+  obj[array[0]] = value
+
+  console.log(obj)
+
 }
